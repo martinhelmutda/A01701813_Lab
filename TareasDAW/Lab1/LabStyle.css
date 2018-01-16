@@ -1,6 +1,6 @@
 
 :root {
-    --font: helveltic;
+    --font: arial;
     --primary-color: #fa0;
     --light: #eee;
 }
@@ -8,6 +8,14 @@
 * {
     box-sizing: border-box;
     margin: .5em 0;
+}
+
+header{
+    background-color: powderblue ; 
+    color: red;  
+    text-align: center; 
+    align-content: center; 
+    padding: 10px;
 }
 
 @media(min-width:35em) {
