@@ -8,7 +8,7 @@
   </head>
   <body>
     <header>
-        <h1>Lab 3 </h1>
+        <h1>Lab 4 </h1>
     </header>
     <nav>
         <div class="3 col" style="...">Martín Helmut Domínguez Álvarez</div>
@@ -16,11 +16,84 @@
         <div class="1 col" style="...">nitram_mh@hotmail.com</div>
     </nav>
     <section>
+      <article>
+        <button type="button" name="button" onclick="contador()">Contador</button>
+        <button type="button" onclick="myFunction(2,3)">Prueba</button>
+        <button type="button" onclick="genera_tabla()"> Tabla</button>
+        <button type="button" name="button" onclick="problema()" class="btn">Tiempo</button>
+      </article>
+      <article>
+        <header>
+          <h4>Cuestionario</h4>
+        </header>
+        <ul>
+            <li class="cuestion">¿Qué diferencias y semejanzas hay entre Java y JavaScript? </li>
+            <p>
+              JavaScript está pensado para ser ejecutado como parte de una página web en un navegador, mientras que Java es un lenguaje que puede ser aplicado en otros ámbitos
+            </p>
+            <li class="cuestion">¿Qué métodos tiene el objeto Date? (Menciona al menos 5*)</li>
+
+              <ul>
+                <li>
+                  getHours()
+                </li>
+                <li>
+                  getMilliseconds()
+                </li>
+                <li>
+                  setHours()
+                </li>
+                <li>
+                  toLocaleTimeString()
+                </li>
+                <li>
+                  now()
+                </li>
+              </ul>
+
+            <li class="cuestion">¿Qué métodos tienen los arreglos? (Menciona al menos 5*)</li>
+            <p>
+              Los que me parecen más signifiactivos son:
+              <ul>
+                <li>
+                  concat(). Sirve par unir dos o más arrays.
+                </li>
+                <li>
+                  indexOf(). Busca en el arreglo un elemento y regresa su posición.
+                </li>
+                <li>
+                  Reverse(). Invierte el orden del arreglo
+                </li>
+                <li>
+                  forEach(). Realiza algo por cada que una condición se cumple
+                </li>
+                <li>
+                  every(). Checa todo el arreglo
+                </li>
+              </ul>
+            </p>
+            <li class="cuestion">¿Cómo se declara una variable con alcance local dentro de una función?</li>
+            <p>
+              Se declara dentro de la función donde será usada.
+            </p>
+            <li class="cuestion">¿Qué implicaciones tiene utilizar variables globales dentro de funciones?</li>
+            <p>
+              Puede confundirse o interferir con el comportamineto de otras funciones en la aplicación
+            </p>
+            <li class="cuestion">¿Qué método de String se puede utilizar para buscar patrones con expresiones regulares?¿Para qué podrías utilizar esto en una aplicación web?</li>
+            <p>
+              Search, para navegar más fácilmente entre el contenido
+            </p>
+        </ul>
+      </article>
+
+    </section>
+    <section>
         <article>
             <header>
                 <h2>Sobre mí</h2>
             </header>
-            <p>Hola, mi nombre es martín Helmut Domínguez Álvarez y nací en Sahuayo, Michoacán. Durante casi toda mi vida viví en Morelia. No sé qué me gusta, pero sé qué me disgusta. Actualmente estudio ISC y curso el Cuarto Semestre</p>
+            <p id="demo">Hola, mi nombre es martín Helmut Domínguez Álvarez y nací en Sahuayo, Michoacán. Durante casi toda mi vida viví en Morelia. No sé qué me gusta, pero sé qué me disgusta. Actualmente estudio ISC y curso el Cuarto Semestre</p>
         </article>
     </section>
     <hr>
@@ -183,6 +256,8 @@
       </article>
     </section>
 
+    <script src="labScript.js"></script>
+
     </body>
     <footer>
         <p>Hecho en Atom</p>
@@ -191,7 +266,6 @@
             <input type="URL" placeholder="minombre@yo.com" />
         </label>
         </p>
-
 
     </footer>
 </html>
