@@ -64,3 +64,52 @@ function contador(){
   }
   document.write("Hay "+cero+" ceros, "+ negativo+" negativos y "+positivo+" positivos");
 }
+
+function promedio(){
+  var matriz = [[30, -2, 5, 78],[ 0 ,89, -45, 23],[16, 98, 34, 20]]
+  var sum=0;
+    document.write('<table border="1">');
+    for (i = 0; i < matriz.length; i++) {
+      document.write('<tr>');
+
+      for (j = 0; j < matriz[i].length; j++) {
+          document.write('<td>' + matriz[i][j]+ '</td>');
+          sum=sum+matriz[i][j];
+      }
+      document.write('<td>'+sum/matriz[i].length+'</td>')
+      document.write('</tr>');
+      sum=0;
+    }
+    document.write('</table>');
+}
+
+function inverso(){
+  var num=prompt("Ingresa el número que quieres invertir", "Número")
+  var tam=num.length;
+  var inversion="";
+
+   while (tam>=0) {
+    inversion=inversion+num.charAt(tam);
+    tam--;
+  }
+    document.write(inversion);
+}
+
+
+
+var cafe1 = new Object();
+cafe1.tueste="Negro intenso";
+cafe1.origen="Colombia";
+
+function preparacion(){
+  var metodos=["capuccino", "latte", "moka", "esspresso"];
+  var opc=Math.round(Math.random()*3);
+  document.write("Gracias por comprar el café "+metodos[opc]+ " de "+ cafe1.origen+ " de tueste "+"<br>");
+  despedida();
+}
+
+function despedida(){
+  var adios=["Hasta luego", "adios", "bye", "Gracias por tu compra "];
+  var opc=Math.round(Math.random()*3);
+  document.write(adios[opc]);
+}
