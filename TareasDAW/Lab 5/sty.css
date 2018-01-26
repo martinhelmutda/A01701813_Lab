@@ -1,0 +1,42 @@
+#capsula {
+  position         : absolute;
+  right            : 0;
+  left             : 0;
+
+  align-items      : center;
+
+  width            : 200px;
+  height           : 100%;
+  margin           : auto;
+
+  background-color : rgba(175, 165, 148, 0.21);
+}
+
+#capsula-text {
+  margin-top       : 300%;
+
+  color            : white;
+  background-color : black;
+}
+
+#capsula input {
+  width   : 76%;
+  margin  : 0em;
+  padding : 2em;
+}
+
+#capsula img {
+  position : absolute;
+  top      : 0;
+  bottom   : 0;
+
+  width    : 200px;
+  height   : 200px;
+  margin   : auto;
+}
+
+body {
+  height           : 100%;
+
+  background-image : url(images/thomas-kelley-30330.jpg);
+}
