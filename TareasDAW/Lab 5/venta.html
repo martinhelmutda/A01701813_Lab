@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cuestionario</title>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Pizzeria del barrio</h1>
+    </header>
+    <table>
+      <tr>
+        <td>
+          <img src="images/pizza-alfredo.png" height="130px" alt="Pizza tipo alfredo" />
+        </td>
+        <td>
+          <img src="images/pizza-carnes.jpeg" alt="Pizza de carne" />
+        </td>
+        <td>
+          <img src="images/pizza-hawaiana.png" height="130px" alt="Pizza Hawaiana" />
+        </td>
+        <td>
+          <img src="images/pizza-manzana.jpeg" height="130px" alt="Pizza de manzan" />
+        </td>
+      </tr>
+      <tr>
+        <th>
+          Pizza de 3 quesos
+        </th>
+        <th>
+          Pizza de carne de res
+        </th>
+        <th>
+          Pizza hawaiana
+        </th>
+        <th>
+          Pizza de manzana
+        </th>
+      </tr>
+      <tr>
+        <td>$19 USD</td>
+        <td>$20 USD</td>
+        <td>$17 USD</td>
+        <td>$19 USD</td>
+      </tr>
+      <tr>
+        <th colspan="4"> Tipo de masa</th>
+      </tr>
+      <tr>
+        <td>
+          <form>
+            <fieldset>
+              <legend>Masa</legend>
+              <input type="radio" name="radio" id="radio">
+              <label for="radio">Delgada</label>
+              <input type="radio" name="radio" id="radio">
+              <label for="radio">Pan</label>
+            </fieldset>
+          </form>
+        </td>
+        <td>
+          <form>
+            <fieldset>
+              <legend>Masa</legend>
+              <input type="radio" name="radio" id="radio">
+              <label for="radio">Delgada</label>
+              <input type="radio" name="radio" id="radio">
+              <label for="radio">Pan</label>
+            </fieldset>
+          </form>
+        </td>
+        <td>
+          <form>
+            <fieldset>
+              <legend>Masa</legend>
+              <input type="radio" name="radio" id="radio">
+              <label for="radio">Delgada</label>
+              <input type="radio" name="radio" id="radio">
+              <label for="radio">Pan</label>
+            </fieldset>
+          </form>
+        </td>
+        <td>
+          <form>
+            <fieldset>
+              <legend>Masa</legend>
+              <input type="radio" name="radio" id="radio">
+              <label for="radio">Delgada</label>
+              <input type="radio" name="radio" id="radio">
+              <label for="radio">Pan</label>
+            </fieldset>
+          </form>
+        </td>
+      </tr>
+      <tr>
+        <th colspan="4"> Cantidad</th>
+      </tr>
+      <tr>
+        <td>
+          <form>
+            <fieldset>
+              <legend>
+                Cantidad
+              </legend>
+              <input type="number" id="cantidad1" value="0" min="0" max="5" onchange="sub()">
+            </fieldset>
+          </form>
+        </td>
+        <td>
+          <form>
+            <fieldset>
+              <legend>
+                Cantidad
+              </legend>
+              <input type="number" id="cantidad2" value="0" min="0" max="5" onchange="sub()">
+            </fieldset>
+          </form>
+        </td>
+        <td>
+          <form>
+            <fieldset>
+              <legend>
+                Cantidad
+              </legend>
+              <input type="number" id="cantidad3" value="0" min="0" max="5" onchange="sub()">
+            </fieldset>
+          </form>
+        </td>
+        <td>
+          <form>
+            <fieldset>
+              <legend>
+                Cantidad
+              </legend>
+              <input type="number" id="cantidad4" value="0" min="0" max="5" onchange="sub()">
+            </fieldset>
+          </form>
+        </td>
+      </tr>
+    </table>
+
+    <p>
+      Descuento de 10 USD en la compra de 100 USD en pizzas
+    </p>
+    <h1>Total:</h1>
+    <h1 id="total">
+      <p>$0.00</p>
+    </h1>
+    <h2>Subtotal:</h2>
+    <div id="descuento"></div>
+    <div id="subtotal">
+      <p>$0.00</p>
+    </div>
+    <h2> IVA:</h2>
+    <div id="iva">
+      <p>$0.00</p>
+    </div>
+    </body>
+
+    <script src="script.js"></script>
+
+  <footer>
+      Martín Helmut Domínguez Álvarez A01701813
+  </footer>
+</html>
