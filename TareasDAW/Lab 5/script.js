@@ -30,3 +30,28 @@ function solver1() {
   }
   document.getElementById('foco1').src = pic;
 }
+
+//Venta
+function sub()
+{
+  var cant1 = document.getElementById("cantidad1").value;
+  var cant2 = document.getElementById("cantidad2").value;
+  var cant3 = document.getElementById("cantidad3").value;
+  var cant4 = document.getElementById("cantidad4").value;
+  var resultado= cant1*19 +cant2*20+cant3*17+cant4*19;
+
+  if(resultado>=100){
+    resultado=resultado-10;
+    document.getElementById("descuento").innerHTML="Descuento Aplicado";
+  }
+
+  document.getElementById("subtotal").innerHTML="$ "+resultado +".00";
+  document.getElementById("iva").innerHTML="$ "+resultado*0.16;
+
+ total(resultado);
+}
+
+function total(resultado){
+  var total= resultado+resultado*.16;
+  document.getElementById("total").innerHTML= "$ "+total + " USD";
+}
