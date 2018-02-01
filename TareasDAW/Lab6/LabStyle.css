@@ -1,7 +1,8 @@
+
 :root {
-  --font          : arial;
-  --primary-color : #fa0;
-  --light         : #eee;
+    --font          : arial;
+    --primary-color : #fa0;
+    --light         : #eee;
 }
 
 /* Universal Selector */
@@ -13,9 +14,9 @@
 
 header {
   padding       : 10px;
-  border        : medium groove green;
   text-align    : center;
   align-content : center;
+  border: medium groove green;
 }
 
 body {
@@ -135,8 +136,8 @@ h4 {
 }
 
 h2 {
-  background-color : green;
-  font             : 300 2.2em var(--font);
+  font : 300 2.2em var(--font);
+    background-color : green;
 }
 
 h1 {
@@ -145,12 +146,11 @@ h1 {
 }
 
 .supremo {
-  background-color : red;
-  font-family      : cursive;
+  font-family: cursive;
+  background-color: red;
 }
-
 .menor {
-  background-color : black;
+  background-color: black;
 }
 
 a {
@@ -223,38 +223,46 @@ article.biblio {
 }
 
 .menor {
-  position : relative;
+    position: relative;
+
 }
 
 .menor .tooltiptext {
-  z-index          : 1;
-  visibility       : hidden;
-  position         : absolute;
-  top              : 150%;
-  left             : 50%;
-  width            : 120px;
-  margin-left      : -60px;
-  padding          : 5px;
-  color            : #fff;
-  border-radius    : 6px;
-  background-color : green;
-  text-align       : center;
-  /* Posicionar correctamente la pestaña */
+    visibility: hidden;
+    width: 120px;
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px ;
+    position: absolute;
+    z-index: 1;
+    /*Posicionar correctamente la pestaña*/
+    top: 150%;
+    left: 50%;
+    margin-left: -60px;
 }
 
-/* Estp es para el triangulito */
-
+/*Estp es para el triangulito*/
 .menor .tooltiptext::after {
-  content      : "";
-  position     : absolute;
-  bottom       : 100%;
-  left         : 50%;
-  margin-left  : -5px;
-  border-color : transparent transparent black transparent;
-  border-width : 5px;
-  border-style : solid;
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
 }
 
 .menor:hover .tooltiptext {
-  visibility : visible;
+    visibility: visible;
+}
+
+#div1{
+  width: 350px;
+      height: 190px;
+      padding: 10px;
+      border: 1px solid #aaaaaa;
+      background-image: url("playa.jpg");
 }
