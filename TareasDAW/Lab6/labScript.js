@@ -117,3 +117,32 @@ function despedida(){
 function cambiarEstilo(){
   document.getElementById('grant').className='supremo';
 }
+
+
+
+
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+}
+
+
+
+function saludo(){
+  setInterval(function(){ alert("Hola chavos, ¿qué tal?"); }, 4500);
+}
+/*Aparece cada tanto tiempo*/
+
+function feliz(){
+  setTimeout(function(){ alert("Gracias, ahora soy feliz"); }, 3000);
+}
+/*Aparece solo una vez después de tanto tiempo*/
