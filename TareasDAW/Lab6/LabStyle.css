@@ -258,3 +258,11 @@ article.biblio {
 .menor:hover .tooltiptext {
     visibility: visible;
 }
+
+#div1{
+  width: 350px;
+      height: 190px;
+      padding: 10px;
+      border: 1px solid #aaaaaa;
+      background-image: url("playa.jpg");
+}
