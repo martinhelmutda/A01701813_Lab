@@ -1,0 +1,28 @@
+
+<!-- Hacen falta restricciones de check -->
+    <br>
+    <section class="container">
+      <strong>Estamos recopilando información de nuestros visitantes</strong>
+      <p>Por favor introduce tus datos para poder ver el cuestionario</p>
+      <form class="" action="page.php" method="post">
+        <fieldset>
+          <label for="nameField">Nombre</label>
+          <input type="text" placeholder="Juan Manuel Treviño" name="nameField">
+          <label for="ageRangeField">Edad</label>
+          <select id="ageRangeField">
+            <option value="0-13">0-13</option>
+            <option value="14-17">14-17</option>
+            <option value="18-23">18-23</option>
+            <option value="24+">24+</option>
+            <option value="100+">100+</option>
+          </select>
+          <label for="commentField">Comentario</label>
+          <textarea placeholder="Insertar comentario" name="commentField"></textarea>
+          <div class="float-right">
+            <input type="checkbox" id="confirmField">
+            <label class="label-inline" for="confirmField">Envíar una copia al mail</label>
+          </div>
+          <input class="button-primary" type="submit" value="Enviar" name="submit">
+        </fieldset>
+      </form>
+  </section>
