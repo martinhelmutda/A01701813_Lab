@@ -1,0 +1,33 @@
+<br>
+<section class="container">
+  <h3>Cuestionario</h3>
+  <ul>
+    <li>
+      <strong>¿Por qué es importante hacer un session_unset() y luego un session_destroy()?</strong>
+    </li>
+    Porque así podemos liberar la memoria que está reservada en el servidor para la sesión; Primero se eliminan las variables globales con uset y posteriormente destroy para borrar completamente la sesión iniciada
+    <li>
+      <strong>¿Cuál es la diferencia entre una variable de sesión y una cookie?</strong>
+    </li>
+    <ul>
+      <li>
+        Cookie. Las cookies resuelven el problema stateless de HTTP almacenando los datos de sesion en el lado del cliente Permite compartir la información en distintas páginas o distintas instancias. Las cookies deben enviarse antes que cualquier otra cosa
+      </li>
+      <li>Session. Los datos de sesion se almacenan del lado del servidor y nunca en el cliente.</li>
+    </ul>
+    <li>
+      <strong>¿Qué técnicas se utilizan en sitios como facebook para que el usuario no sobreescriba sus fotos en el sistema de archivos cuando sube una foto con el mismo nombre?</strong>
+    </li>
+    Cambia el nombre de las imágenes por claves numéricas únicas para que jamás se repitan.
+    <li>
+      <strong>¿Qué es CSRF y cómo puede prevenirse?</strong>
+    </li>
+    Cross Site Request Forgery (CSRF). Es una técnica de falsificación, que forza al navegador a solicitar información de una página en donde ya se está logueado. <br>
+    Para prevenirlo lo mejor es salir de las sesiones que tenemos activas cada que dejamos de usarlas. No abrir varias sesiones a la vez, en especial cuando hay datos vulnerebles involucrados o usar distintos navegadores para cada sesión.
+    También es recomendable hacer usos de tokens dinámicos para controlar las solicitudes del cliente.
+  </ul>
+  <br>
+  <h3>Bibliografía</h3>
+  <p>http://idesweb.es/proyecto/proyecto-prac09-php-cookies-sesiones</p>
+  <p>https://tecnologiasweb.blogspot.mx/2010/12/que-es-el-cross-site-request-forgery.html</p>
+</section>
