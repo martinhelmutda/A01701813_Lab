@@ -2,6 +2,7 @@
   session_start();
   include("_header.html");
   // echo "Bienvenido ".$_POST["usuario"];
+
   include("_despliega.html");
   // Ya está blindado chicos
 
@@ -16,7 +17,7 @@
       //Declaremos la existencia de una sesiones
       $_SESSION['usuario']=$_POST['user'];
 
-      include("_cuestionario.html");
+      header("location:index.php");
   }else {
     echo "
     <section class=container>

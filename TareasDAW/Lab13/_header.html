@@ -9,6 +9,8 @@
       <section class="container">
         <h1>Hola, éste es el nuevo lab. Parte 3
         </h1>
-        <button class="button-outline float-right"><a href="logout.php">Salir</a> </button>
+        <?php if(isset($_SESSION["usuario"])): ?>
+          <button class="button-outline float-right"><a href="logout.php">Salir</a> </button>
+        <?php endif; ?>
       </section>
     </header>

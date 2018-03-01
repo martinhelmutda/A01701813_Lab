@@ -1,0 +1,198 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf400
+{\fonttbl\f0\fnil\fcharset0 AvenirNext-Regular;\f1\fnil\fcharset0 AvenirNext-Medium;\f2\fnil\fcharset0 Roboto-Regular;
+\f3\fnil\fcharset0 Menlo-Bold;\f4\fnil\fcharset0 Menlo-Regular;\f5\fnil\fcharset0 Roboto-Medium;
+\f6\fswiss\fcharset0 Helvetica;\f7\fnil\fcharset0 AppleColorEmoji;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;\red189\green141\blue61;
+\red49\green49\blue49;\red239\green238\blue166;\red139\green184\blue123;\red171\green171\blue171;\red40\green77\blue135;
+}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c100000\c100000\c100000;\csgenericrgb\c74118\c55294\c23922;
+\csgenericrgb\c19216\c19216\c19216;\csgenericrgb\c93725\c93333\c65098;\csgenericrgb\c54510\c72157\c48235;\csgenericrgb\c67059\c67059\c67059;\cssrgb\c20000\c38431\c60000;
+}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\qj\partightenfactor0
+
+\f0\b\fs30 \cf2 \expnd0\expndtw0\kerning0
+Mart\'edn Helmut Dom\'ednguez \'c1lvarez\
+
+\b0 A01701813\
+
+\fs20 Bases de Datos\
+26/Febrero/2018\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs28 \cf0 \cb3 \
+\
+
+\f0\b Ejercicio 2 
+\f1\b0 \
+\pard\pardeftab720\partightenfactor0
+
+\f0 \cf0 Revisa el contenido de la tabla materiales y determina si existe alguna inconsistencia en el contenido de la tabla. 
+\b \'bfCu\'e1l es? \'bfA qu\'e9 se debe? \
+
+\b0 Hay una llave repetida, sin embargo no representa un gran problema, \cb1 \kerning1\expnd0\expndtw0 los tipos de dato son correctos y la cardinalidad concuerda con la de Materiales. Se pudo insertar correctamente.\
+\cb3 \expnd0\expndtw0\kerning0
+\
+A continuaci\'f3n definiremos a la Clave como llave primaria de la tabla de materiales, esto mediante la creaci\'f3n de un constraint. \cb1 \
+\cb3 \'a0\'a0ALTER TABLE Materiales add constraint llaveMateriales PRIMARY KEY (Clave) 
+\f1 \
+
+\f0 Agrega nuevamente el registro a la tabla de materiales: \cb1 \
+\cb3 \'a0\'a0INSERT INTO Materiales values(1000, 'xxx', 1000) \cb1 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\b \cf0 \cb3 \'bfQu\'e9 ocurri\'f3? 
+\b0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+\cf0 \cb1 \kerning1\expnd0\expndtw0 S\'ed, hubo un error, aparece que ya hay una llave primaria definida con el mismo valor, ya que una llave debe ser irrepetible, no se puede insertar.\cb3 \expnd0\expndtw0\kerning0
+\
+\
+\pard\pardeftab720\partightenfactor0
+\cf0 \'a0sp_helpconstraint materiales \cb1 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\b \cf0 \cb3 \'bfQu\'e9 informaci\'f3n muestra esta consulta? 
+\b0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+\cf0 \cb1 \kerning1\expnd0\expndtw0 Abre una tabla con las llaves de la tabla, as\'ed como sus restricciones\cb3 \expnd0\expndtw0\kerning0
+\
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f2\b\fs30 \cf0 \'bfQu\'e9 sentencias utilizaste para definir las llaves primarias? 
+\b0 \cb3 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\b\fs24 \cf4 \cb5 \kerning1\expnd0\expndtw0 ALTER TABLE 
+\f4\b0 \cf6 Proyectos 
+\f3\b \cf4 ADD CONSTRAINT 
+\f4\b0 \cf7 llaveProyectos 
+\f3\b \cf4 PRIMARY KEY 
+\f4\b0 \cf7 (
+\f3\b \cf8 Numero
+\f4\b0 \cf7 );\
+
+\f3\b \cf4 ALTER TABLE 
+\f4\b0 \cf6 Proveedores 
+\f3\b \cf4 ADD CONSTRAINT 
+\f4\b0 \cf7 llaveProveedores 
+\f3\b \cf4 PRIMARY KEY 
+\f4\b0 \cf7 (
+\f3\b \cf8 RFC
+\f4\b0 \cf7 );\
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs30 \cf0 \cb3 \expnd0\expndtw0\kerning0
+\
+\pard\pardeftab720\partightenfactor0
+
+\b \cf0 \cb3 \'bfQu\'e9 sentencias utilizaste para definir este constrait? 
+\f5\b0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\b\fs24 \cf4 \cb5 \kerning1\expnd0\expndtw0 ALTER TABLE 
+\f4\b0 \cf6 Entregan 
+\f3\b \cf4 ADD CONSTRAINT 
+\f4\b0 \cf7 llaveEntrega 
+\f3\b \cf4 PRIMARY KEY 
+\f4\b0 \cf7 (
+\f3\b \cf8 Clave
+\f4\b0 \cf7 , 
+\f3\b \cf8 RFC
+\f4\b0 \cf7 , 
+\f3\b \cf8 Numero
+\f4\b0 \cf7 , 
+\f3\b \cf8 Fecha
+\f4\b0 \cf7 );\
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs30 \cf0 \cb3 \expnd0\expndtw0\kerning0
+Una llave compuesta por Clave, RFC, Numero y Fecha.\
+\pard\pardeftab720\partightenfactor0
+
+\f6\fs24 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\
+
+\f0\b\fs30 \cb3 \expnd0\expndtw0\kerning0
+Ejercicio 3 
+\b0 \cb1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\fs24 \cf0 \kerning1\expnd0\expndtw0 \
+\pard\pardeftab720\partightenfactor0
+
+\b\fs30 \cf0 \cb3 \expnd0\expndtw0\kerning0
+\'bfQu\'e9 particularidad observas en los valores para clave, rfc y numero? 
+\f1\b0 \
+
+\f0 \cb1 Todos tienen una llave para indicar que esas columnas son claves primarias
+\f1 \uc0\u8232 
+\f0\b \cb3 \'bfC\'f3mo responde el sistema a la inserci\'f3n de este registro? 
+\f1\b0 \
+Lo acepta y hace la inserci\'f3n en donde corresponde.\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f0 \cf0 \cb3 Intenta nuevamente la inserci\'f3n del registro inconsistente. \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\b \cf0 \cb3 \'bfQu\'e9 significa el mensaje que emite el sistema? 
+\b0 \cb3 \
+\cb1 No existe un material con esa clave, por lo tanto no puede crear esa instancia\
+\
+
+\b \cb3 \'bfQu\'e9 significado tiene la sentencia anterior?
+\b0 \cb3 \
+Que no existe una entrada en la tabla materiales que coincida con la llave for\'e1nea  
+\f7 \uc0\u55357 \u56593 
+\f0 Clave, por lo tanto no se puede insertar. Para que se pueda hacer debe existir en ambas tablas la clave.\
+\
+
+\b \cb3 \'bfQu\'e9 significan las columnas de esas consultas?
+\b0 \cb3 \
+Indican las 
+\f7 \uc0\u55357 \u56593 
+\f0  llaves for\'e1neas, primarias, el origen de las llaves for\'e1neas y su ubicaci\'f3n en el servidor.\
+\
+
+\b \cb3 Ejercicio 4 "Definiendo restricciones a valores en campos" 
+\f1\b0 \
+
+\f0\b \'bfQu\'e9 uso se le est\'e1 dando a GETDATE()? 
+\b0 \cb3 \
+Se inserta la fecha actual en donde deber\'eda estar la fecha de entrega;\cb1 \
+
+\b \cb3 \'bfTiene sentido el valor del campo de cantidad? 
+\f1\b0 \
+\pard\pardeftab720\partightenfactor0
+
+\f0 \cf0 \cb3 No, para qu\'e9 creas un registro de entrega si no entregas nada en realidad.
+\f1 \cb3 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\b \cf0 \'bfC\'f3mo responde el sistema? 
+\b0 \cb3 \
+No permite la inserci\'f3n\cb1 \
+
+\b \cb3 \'bfQu\'e9 significa el mensaje? 
+\f1\b0 \
+\pard\pardeftab720\partightenfactor0
+
+\f0 \cf0 \cb3 Significa que no se puede realizar la inserci\'f3n ya que no cumple con la restricci\'f3n check que se aplica a la columna cantidad, en donde la cantidad debe ser mayor a 0\
+\pard\pardeftab720\partightenfactor0
+
+\b \cf0 \cb3 \
+INTEGRIDAD REFERENCIAL:
+\b0 \cb3 \
+Son reglas que permiten asegurarse que las entradas son consistentes en todos lados, es decir, no pueden faltar ni sobrar datos relacionados. Si una 
+\f7 \uc0\u55357 \u56593 
+\f0  for\'e1nea no est\'e1 presente como llave primaria en otra tabla, la conexi\'f3n es incorrecta.\
+\
+Referencia:\
+\pard\pardeftab720\partightenfactor0
+
+\fs26 \cf0 DataPrix. \cf9 \cb3 Regla de integridad referencial. Recuperado de \cf0 \cb3 http://www.dataprix.com/43-regla-integridad-referencial}
