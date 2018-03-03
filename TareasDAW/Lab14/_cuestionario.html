@@ -1,0 +1,39 @@
+<br>
+<section class="container">
+  <h3>Cuestionario</h3>
+  <ul>
+    <li>
+      <strong>¿Qué es ODBC y para qué es útil?</strong>
+    </li>
+    OPEN DATABASE CONNECTIVITY. Son especificaciones que permiten el acceso a las bases de datos desde cualquier software de manejo de bases de datos.
+    <li>
+      <strong>¿Qué es SQL Injection?</strong>
+    </li>
+    Es una forma de ataque malicioso en donde el infiltrado ejecuta sentencias de SQL para controlar la base de datos del servidor.
+    <li>
+      <strong>¿Qué técnicas puedes utilizar para evitar ataques de SQL Injection?</strong>
+    </li>
+    La revisión rutinaria de la base de datos, así como el uso de aplicaciones para encontrar vulnerabilidades
+    Agregar credenciales necesarias ppara cada función.
+    Verifica los inputs antes de hacer el query.
+  </ul>
+  <br>
+
+
+  <h4>Mostrar los productos y descripcion</h4>
+
+  <?php getProductos()?>
+
+  <h4>Mostrar los productos de maíz blanco</h4>
+  <?php
+  $tipo='blanco';
+  getProductosTipo($tipo)
+  ?>
+
+  <img src="<?=$_SESSION["ruta_archivo"]?>"><?=$_SESSION["producto"]?>
+
+  <br>
+  <h3>Bibliografía</h3>
+  <p>https://www.acunetix.com/websitesecurity/sql-injection/</p>
+  <p>http://searchoracle.techtarget.com/definition/Open-Database-Connectivity</p>
+</section>
