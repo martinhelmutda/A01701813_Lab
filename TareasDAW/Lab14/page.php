@@ -1,9 +1,6 @@
 <?php
   session_start();
 
-  //Llamamos la base de datos
-  require_once("bases.php");
-
 
   include("_header.html");
   // echo "Bienvenido ".$_POST["usuario"];
