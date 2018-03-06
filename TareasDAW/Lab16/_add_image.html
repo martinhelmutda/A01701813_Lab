@@ -1,0 +1,48 @@
+<!-- <form action="create.php" class="" action="index.html" method="post">
+  <div class="column">
+    <input type="text" name="producto" class="validate" required>
+    <label for="Producto">Producto</label>
+  </div>
+  <div class="">
+
+  </div>
+</form> -->
+<div class="container">
+
+  
+
+  <form action="create.php" method="POST" enctype="multipart/form-data">
+    <div class="row">
+      <div class="column column-40">
+        <label for="Producto">Producto</label>
+        <input id="producto" type="text" name="producto" class="validate" required>
+      </div>
+    </div>
+    <div class="row">
+      <div class="file-field input-field">
+        <div class="btn">
+          <span>Imagen</span>
+          <input type="file" name="imagen">
+        </div>
+        <div class="file-path-wrapper">
+          <input class="file-path validate" type="text" >
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="column">
+      <?php if (isset($_SESSION["error_archivo"]) != ""): ?>
+        <div class="container">
+          <span style="color:red">
+            <?=$_SESSION["error_archivo"] ?>
+          </span>
+        </div>
+      <?php endif; ?>
+    </div>
+    <div class="input-field col s6">
+          <input type="submit" value="Registrar">
+    </div>
+  </form>
+</div>
