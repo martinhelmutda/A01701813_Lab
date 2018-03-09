@@ -150,11 +150,9 @@
 function actualizar($nombre, $descripcion, $atributo, $actual){
        $db = connectDb();
        if ($db != NULL) {
-          echo "$actual sdfsd";
-          echo "$nombre dsfs";
-          echo "$descripcion dsfsd";
-          echo "$atributo sdfa";
-           $sql='Update producto set nombre="'.$nombre.'",descripcion="'.$descripcion.'", atributos="'.$atributo.'" where nombre="otro"';
+          echo "Estamos actualizando :$actual";
+          var_dump($actual);
+           $sql='Update producto set nombre="'.$nombre.'",descripcion="'.$descripcion.'", atributos="'.$atributo.'" where nombre="'.$actual.'"';
            $db->query($sql);
            closeDb($db);
            return true;
