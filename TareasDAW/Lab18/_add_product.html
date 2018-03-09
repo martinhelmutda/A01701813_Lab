@@ -1,0 +1,36 @@
+<!-- <form action="create.php" class="" action="index.html" method="post">
+  <div class="column">
+    <input type="text" name="producto" class="validate" required>
+    <label for="Producto">Producto</label>
+  </div>
+  <div class="">
+
+  </div>
+</form> -->
+<div class="container">
+
+  <form action="create.php" method="POST" enctype="multipart/form-data">
+    <div class="row">
+      <div class="column column-40">
+        <label for="Producto">Producto</label>
+        <input id="producto" type="text" name="producto" class="validate" required>
+      </div>
+      <div class="column column-30">
+        <label for="atributo">Tipo Maíz</label>
+        <input id="producto" type="text" name="atributo" class="validate" required>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column column-100">
+        <label for="descripcion">Agrega una descripción del producto</label>
+        <input id="descripcion" type="text" name="descripcion" class="commentField" required>
+        <!-- <textarea name="descripcion" rows="8" cols="80" class="valiate" required> ¿Por qué es especial?</textarea> -->
+      </div>
+    </div>
+
+    <div class="input-field col s6">
+          <input type="submit" value="Registrar">
+    </div>
+  </form>
+</div>

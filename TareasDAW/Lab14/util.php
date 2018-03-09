@@ -8,7 +8,7 @@
       $ENV = "dev";
       if ($ENV == "dev") {
           $mysql = mysqli_connect($servername,$username,$password,$dbname);
-
+          // var_dump($mysql);
                                           //root si estan en windows
       } else  if ($ENV == "prod"){
           $mysql = mysqli_connect($servername,$username,$password,$dbname);
