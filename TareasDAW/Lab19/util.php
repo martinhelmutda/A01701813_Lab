@@ -166,11 +166,10 @@ function getAtributos($nombre){
       $result = mysqli_query($db, $sql);
 
       closeDb($db);
-      var_dump($result);
+    
       return $result;
   }
   return false;
 }
-echo "string";
-getAtributos('producto');
+
 ?>
