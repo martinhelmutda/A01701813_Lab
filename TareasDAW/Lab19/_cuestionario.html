@@ -1,0 +1,47 @@
+<br>
+<section class="container">
+  <h3>Cuestionario</h3>
+  <ul>
+    <li>
+      <strong>¿Qué importancia tiene AJAX en el desarrollo de RIA's (Rich Internet Applications)?</strong>
+    </li>
+    Porque permite el uso de diversas tecnologías para tener un óptimo desempeño de la aplicación. Nos permite
+    seguir patrones asíncronos para no frenar la interacción del usuario y la aplicación
+    <li>
+      <strong>¿Qué implicaciones de seguridad tiene AJAX? ¿Dónde se deben hacer las validaciones de seguridad, del lado del cliente o del lado del servidor?</strong>
+    </li>
+    Debido a el poco tiempo en que el uso de Ajax se comenzó a popularizar, existen varios fallos de seguridad. Debes ser cuidadoso también al pedir sugerencias de la base de datos, pues
+    puede mostrar datos que no debería
+    <li>
+      <strong>¿Qué es JSON?</strong>
+    </li>
+    Es una librería que permite un efectivo cambio de información entre distintos lenguajes de programación.
+  <br>
+
+  <h4>Busca los atributos que hay en la base de datos</h4>
+
+  <form>
+      <input type="text" id="userInput" onkeyup="sendRequest()">
+  </form>
+
+  <div id="ajaxResponse"></div>
+
+   <script type="text/javascript" src="ajax.js"></script>
+
+  <h4>Mostrar los productos y descripcion</h4>
+
+  <?php getProductos()?>
+
+  <h4>Mostrar los productos de maíz blanco</h4>
+  <?php
+  $tipo='blanco';
+  getProductosTipo($tipo)
+  ?>
+
+  <img src="<?=$_SESSION["ruta_archivo"]?>"><?=$_SESSION["producto"]?>
+
+  <br>
+  <h3>Bibliografía</h3>
+  <p>https://www.acunetix.com/websitesecurity/sql-injection/</p>
+  <p>http://searchoracle.techtarget.com/definition/Open-Database-Connectivity</p>
+</section>

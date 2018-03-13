@@ -150,10 +150,6 @@
 function actualizar($nombre, $descripcion, $atributo, $actual){
        $db = connectDb();
        if ($db != NULL) {
-          echo "$actual sdfsd";
-          echo "$nombre dsfs";
-          echo "$descripcion dsfsd";
-          echo "$atributo sdfa";
            $sql='Update producto set nombre="'.$nombre.'",descripcion="'.$descripcion.'", atributos="'.$atributo.'" where nombre="otro"';
            $db->query($sql);
            closeDb($db);
@@ -162,4 +158,19 @@ function actualizar($nombre, $descripcion, $atributo, $actual){
        return false;
    }
 
+function getAtributos($nombre){
+  $db = connectDb();
+  if ($db != NULL) {
+      $sql='SELECT atributos from '.$nombre;
+      $sql;
+      $result = mysqli_query($db, $sql);
+
+      closeDb($db);
+      var_dump($result);
+      return $result;
+  }
+  return false;
+}
+echo "string";
+getAtributos('producto');
 ?>

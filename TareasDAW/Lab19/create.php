@@ -1,6 +1,6 @@
 <?php
     session_start();
-    reuire_once("util.php");
+    require_once("util.php");
     if(isset($_SESSION["usuario"]) ) {                                           //Si el usuario está logueado
         if(isset($_POST["producto"]) != NULL ) {
             unset($_SESSION["error_archivo"]);
