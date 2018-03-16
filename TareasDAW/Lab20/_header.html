@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type='text/css' rel='stylesheet' href='milligram.css'/>
+    <title>PHP Tres!</title>
+  </head>
+  <body>
+    <header>
+      <section class="container">
+        <h1>Hola, Bienvenido al imperio de elote
+        </h1>
+        <?php if(isset($_SESSION["usuario"])): ?>
+          <button class="button-outline float-right"><a href="logout.php">Salir</a> </button>
+        <?php endif; ?>
+      </section>
+    </header>
