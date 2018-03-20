@@ -1,17 +1,19 @@
 <br>
 <section class="container">
   <h3>Cuestionario</h3>
-  <img src="AJAX_JQuery.png" alt="Diagrama Ajax JQuery">
+  <img src="AJAX_JQuery.png" alt="Diagrama Ajax JQuery" >
   <ul>
     <li>
       <strong>¿Qué alternativas a jQuery existen?</strong>
     </li>
-    <ul>
+    <ul id="opciones">
       <li>Zepto.js Zepto es una librería de JavaScript para navegadores modernos with a largely jQuery-compatible API.</li>
       <li>Umbrella JS.</li>
       <li>ReactJS</li>
       <li>AngularJS</li>
     </ul>
+
+  <p>jQuery usado: hide, opciones al ecribir los atributos existentes en la barra de abajo</p>
 
   <br>
 
@@ -24,8 +26,9 @@
   </form>
 
 
-  <script type="text/javascript" src="ajax.js"></script>
+  <script type="text/javascript" src="jQuery.js"></script>
 
+  <button id="oculta">Ocultar productos y descripcion</button>
   <h4>Mostrar los productos y descripcion</h4>
 
   <?php getProductos()?>

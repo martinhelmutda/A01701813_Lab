@@ -14,6 +14,8 @@ function getRequestObject() {
   }
 }
 
+
+
 function sendRequest(){
 
     $jquery = 1;
