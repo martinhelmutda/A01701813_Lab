@@ -1,0 +1,41 @@
+<br>
+<section class="container">
+  <h3>Elotes en Querétaro</h3>
+  <iframe src="https://www.google.com/maps/embed/v1/search?key=AIzaSyDYMRbEtS1zPUMUUO9ngqrC-wYx98HoxTU&q=elotes+in+Queretaro"
+  width="600" height="450" frameborder="0"
+  style="border:0" allowfullscreen></iframe>
+  <h4>O viaja al original en Morelia</h4>
+  <iframe src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyDYMRbEtS1zPUMUUO9ngqrC-wYx98HoxTU&origin=Queretaro+Mexico&destination=Morelia+Mexico&avoid=tolls|highways"
+  width="600" height="450" frameborder="0"
+  style="border:0" allowfullscreen></iframe>
+<h3>Cuestionario</h3>
+  <ul>
+    <li>
+      <strong>¿Qué ventajas y desventajas tiene la integración de tus aplicaciones web con servicios web desarrollados por terceros?</strong>
+    </li>
+    <p>Te permite hacer uso de opciones o complementos que ya han sido probados. Facilita tu trabajo pues te permite enfocarte en funciones nuevas.
+    Las API normalmente son seguras y confiables. Las desventajas son que no son tan personalizables y no tienes el control total sobre su uso</p>
+
+  <p>jQuery usado: hide, opciones al ecribir los atributos existentes en la barra de abajo</p>
+  <br>
+
+
+
+  <button id="oculta">Ocultar productos y descripcion</button>
+  <h4>Mostrar los productos y descripcion</h4>
+
+  <?php getProductos()?>
+
+  <h4>Mostrar los productos de maíz blanco</h4>
+  <?php
+  $tipo='blanco';
+  getProductosTipo($tipo)
+  ?>
+
+  <img src="<?=$_SESSION["ruta_archivo"]?>"><?=$_SESSION["producto"]?>
+
+  <br>
+  <h3>Bibliografía</h3>
+  <p>https://www.acunetix.com/websitesecurity/sql-injection/</p>
+  <p>http://searchoracle.techtarget.com/definition/Open-Database-Connectivity</p>
+</section>
