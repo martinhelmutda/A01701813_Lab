@@ -1,0 +1,262 @@
+[23-Mar-2018 15:41:06 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'martin'@'localhost' (using password: YES) in /home/ubuntu/workspace/Lab20/util.php on line 10
+[23-Mar-2018 15:41:06 UTC] PHP Stack trace:
+[23-Mar-2018 15:41:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab20/index.php:0
+[23-Mar-2018 15:41:06 UTC] PHP   2. include() /home/ubuntu/workspace/Lab20/index.php:10
+[23-Mar-2018 15:41:06 UTC] PHP   3. getProductos() /home/ubuntu/workspace/Lab20/_cuestionario.html:34
+[23-Mar-2018 15:41:06 UTC] PHP   4. connectDb() /home/ubuntu/workspace/Lab20/util.php:60
+[23-Mar-2018 15:41:06 UTC] PHP   5. mysqli_connect() /home/ubuntu/workspace/Lab20/util.php:10
+[23-Mar-2018 15:41:06 UTC] PHP Fatal error:  Call to a member function set_charset() on a non-object in /home/ubuntu/workspace/Lab20/util.php on line 18
+[23-Mar-2018 15:41:06 UTC] PHP Stack trace:
+[23-Mar-2018 15:41:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab20/index.php:0
+[23-Mar-2018 15:41:06 UTC] PHP   2. include() /home/ubuntu/workspace/Lab20/index.php:10
+[23-Mar-2018 15:41:06 UTC] PHP   3. getProductos() /home/ubuntu/workspace/Lab20/_cuestionario.html:34
+[23-Mar-2018 15:41:06 UTC] PHP   4. connectDb() /home/ubuntu/workspace/Lab20/util.php:60
+[23-Mar-2018 15:52:02 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'martin'@'localhost' (using password: YES) in /home/ubuntu/workspace/Lab20/util.php on line 10
+[23-Mar-2018 15:52:02 UTC] PHP Stack trace:
+[23-Mar-2018 15:52:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab20/index.php:0
+[23-Mar-2018 15:52:02 UTC] PHP   2. include() /home/ubuntu/workspace/Lab20/index.php:10
+[23-Mar-2018 15:52:02 UTC] PHP   3. getProductos() /home/ubuntu/workspace/Lab20/_cuestionario.html:34
+[23-Mar-2018 15:52:02 UTC] PHP   4. connectDb() /home/ubuntu/workspace/Lab20/util.php:60
+[23-Mar-2018 15:52:02 UTC] PHP   5. mysqli_connect() /home/ubuntu/workspace/Lab20/util.php:10
+[23-Mar-2018 15:52:02 UTC] PHP Fatal error:  Call to a member function set_charset() on a non-object in /home/ubuntu/workspace/Lab20/util.php on line 18
+[23-Mar-2018 15:52:02 UTC] PHP Stack trace:
+[23-Mar-2018 15:52:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab20/index.php:0
+[23-Mar-2018 15:52:02 UTC] PHP   2. include() /home/ubuntu/workspace/Lab20/index.php:10
+[23-Mar-2018 15:52:02 UTC] PHP   3. getProductos() /home/ubuntu/workspace/Lab20/_cuestionario.html:34
+[23-Mar-2018 15:52:02 UTC] PHP   4. connectDb() /home/ubuntu/workspace/Lab20/util.php:60
+[23-Mar-2018 16:16:15 UTC] PHP Warning:  include(_header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/Lab20/page.php on line 5
+[23-Mar-2018 16:16:15 UTC] PHP Stack trace:
+[23-Mar-2018 16:16:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab20/page.php:0
+[23-Mar-2018 16:16:15 UTC] PHP Warning:  include(): Failed opening '_header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Lab20/page.php on line 5
+[23-Mar-2018 16:16:15 UTC] PHP Stack trace:
+[23-Mar-2018 16:16:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab20/page.php:0
+[23-Mar-2018 16:16:15 UTC] PHP Warning:  include(_despliega.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/Lab20/page.php on line 8
+[23-Mar-2018 16:16:15 UTC] PHP Stack trace:
+[23-Mar-2018 16:16:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab20/page.php:0
+[23-Mar-2018 16:16:15 UTC] PHP Warning:  include(): Failed opening '_despliega.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Lab20/page.php on line 8
+[23-Mar-2018 16:16:15 UTC] PHP Stack trace:
+[23-Mar-2018 16:16:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab20/page.php:0
+[23-Mar-2018 16:16:15 UTC] PHP Warning:  include(_footer.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/Lab20/page.php on line 30
+[23-Mar-2018 16:16:15 UTC] PHP Stack trace:
+[23-Mar-2018 16:16:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab20/page.php:0
+[23-Mar-2018 16:16:15 UTC] PHP Warning:  include(): Failed opening '_footer.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Lab20/page.php on line 30
+[23-Mar-2018 16:16:15 UTC] PHP Stack trace:
+[23-Mar-2018 16:16:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab20/page.php:0
+[23-Mar-2018 16:16:33 UTC] PHP Warning:  include(_header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/Lab20/page.php on line 5
+[23-Mar-2018 16:16:33 UTC] PHP Stack trace:
+[23-Mar-2018 16:16:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab20/page.php:0
+[23-Mar-2018 16:16:33 UTC] PHP Warning:  include(): Failed opening '_header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Lab20/page.php on line 5
+[23-Mar-2018 16:16:33 UTC] PHP Stack trace:
+[23-Mar-2018 16:16:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab20/page.php:0
+[23-Mar-2018 16:16:33 UTC] PHP Warning:  include(_despliega.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/Lab20/page.php on line 8
+[23-Mar-2018 16:16:33 UTC] PHP Stack trace:
+[23-Mar-2018 16:16:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab20/page.php:0
+[23-Mar-2018 16:16:33 UTC] PHP Warning:  include(): Failed opening '_despliega.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Lab20/page.php on line 8
+[23-Mar-2018 16:16:33 UTC] PHP Stack trace:
+[23-Mar-2018 16:16:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab20/page.php:0
+[23-Mar-2018 16:16:33 UTC] PHP Warning:  include(_footer.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/Lab20/page.php on line 30
+[23-Mar-2018 16:16:33 UTC] PHP Stack trace:
+[23-Mar-2018 16:16:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab20/page.php:0
+[23-Mar-2018 16:16:33 UTC] PHP Warning:  include(): Failed opening '_footer.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Lab20/page.php on line 30
+[23-Mar-2018 16:16:33 UTC] PHP Stack trace:
+[23-Mar-2018 16:16:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab20/page.php:0
+[23-Mar-2018 16:17:39 UTC] PHP Warning:  include(_header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/Lab20/page.php on line 5
+[23-Mar-2018 16:17:39 UTC] PHP Stack trace:
+[23-Mar-2018 16:17:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab20/page.php:0
+[23-Mar-2018 16:17:39 UTC] PHP Warning:  include(): Failed opening '_header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Lab20/page.php on line 5
+[23-Mar-2018 16:17:39 UTC] PHP Stack trace:
+[23-Mar-2018 16:17:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab20/page.php:0
+[23-Mar-2018 16:17:39 UTC] PHP Warning:  include(_despliega.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/Lab20/page.php on line 8
+[23-Mar-2018 16:17:39 UTC] PHP Stack trace:
+[23-Mar-2018 16:17:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab20/page.php:0
+[23-Mar-2018 16:17:39 UTC] PHP Warning:  include(): Failed opening '_despliega.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Lab20/page.php on line 8
+[23-Mar-2018 16:17:39 UTC] PHP Stack trace:
+[23-Mar-2018 16:17:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab20/page.php:0
+[23-Mar-2018 16:17:39 UTC] PHP Warning:  include(_footer.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/Lab20/page.php on line 30
+[23-Mar-2018 16:17:39 UTC] PHP Stack trace:
+[23-Mar-2018 16:17:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab20/page.php:0
+[23-Mar-2018 16:17:39 UTC] PHP Warning:  include(): Failed opening '_footer.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Lab20/page.php on line 30
+[23-Mar-2018 16:17:39 UTC] PHP Stack trace:
+[23-Mar-2018 16:17:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab20/page.php:0
+[23-Mar-2018 16:17:46 UTC] PHP Warning:  include(_header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/Lab20/page.php on line 5
+[23-Mar-2018 16:17:46 UTC] PHP Stack trace:
+[23-Mar-2018 16:17:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab20/page.php:0
+[23-Mar-2018 16:17:46 UTC] PHP Warning:  include(): Failed opening '_header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Lab20/page.php on line 5
+[23-Mar-2018 16:17:46 UTC] PHP Stack trace:
+[23-Mar-2018 16:17:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab20/page.php:0
+[23-Mar-2018 16:17:46 UTC] PHP Warning:  include(_despliega.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/Lab20/page.php on line 8
+[23-Mar-2018 16:17:46 UTC] PHP Stack trace:
+[23-Mar-2018 16:17:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab20/page.php:0
+[23-Mar-2018 16:17:46 UTC] PHP Warning:  include(): Failed opening '_despliega.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Lab20/page.php on line 8
+[23-Mar-2018 16:17:46 UTC] PHP Stack trace:
+[23-Mar-2018 16:17:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab20/page.php:0
+[23-Mar-2018 16:17:46 UTC] PHP Warning:  include(_footer.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/Lab20/page.php on line 30
+[23-Mar-2018 16:17:46 UTC] PHP Stack trace:
+[23-Mar-2018 16:17:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab20/page.php:0
+[23-Mar-2018 16:17:46 UTC] PHP Warning:  include(): Failed opening '_footer.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Lab20/page.php on line 30
+[23-Mar-2018 16:17:46 UTC] PHP Stack trace:
+[23-Mar-2018 16:17:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab20/page.php:0
+[23-Mar-2018 16:18:00 UTC] PHP Warning:  include(_header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/Lab20/page.php on line 5
+[23-Mar-2018 16:18:00 UTC] PHP Stack trace:
+[23-Mar-2018 16:18:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab20/page.php:0
+[23-Mar-2018 16:18:00 UTC] PHP Warning:  include(): Failed opening '_header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Lab20/page.php on line 5
+[23-Mar-2018 16:18:00 UTC] PHP Stack trace:
+[23-Mar-2018 16:18:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab20/page.php:0
+[23-Mar-2018 16:18:00 UTC] PHP Warning:  include(_despliega.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/Lab20/page.php on line 8
+[23-Mar-2018 16:18:00 UTC] PHP Stack trace:
+[23-Mar-2018 16:18:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab20/page.php:0
+[23-Mar-2018 16:18:00 UTC] PHP Warning:  include(): Failed opening '_despliega.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Lab20/page.php on line 8
+[23-Mar-2018 16:18:00 UTC] PHP Stack trace:
+[23-Mar-2018 16:18:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab20/page.php:0
+[23-Mar-2018 16:18:00 UTC] PHP Warning:  include(_footer.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/Lab20/page.php on line 30
+[23-Mar-2018 16:18:00 UTC] PHP Stack trace:
+[23-Mar-2018 16:18:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab20/page.php:0
+[23-Mar-2018 16:18:00 UTC] PHP Warning:  include(): Failed opening '_footer.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Lab20/page.php on line 30
+[23-Mar-2018 16:18:00 UTC] PHP Stack trace:
+[23-Mar-2018 16:18:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab20/page.php:0
+[23-Mar-2018 16:21:10 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/ubuntu/workspace/Lab20/create.php on line 13
+[23-Mar-2018 16:21:10 UTC] PHP Stack trace:
+[23-Mar-2018 16:21:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab20/create.php:0
+[23-Mar-2018 16:21:10 UTC] PHP   2. getimagesize() /home/ubuntu/workspace/Lab20/create.php:13
+[23-Mar-2018 16:21:10 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/Lab20/util.php on line 130
+[23-Mar-2018 16:21:10 UTC] PHP Stack trace:
+[23-Mar-2018 16:21:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab20/create.php:0
+[23-Mar-2018 16:21:10 UTC] PHP   2. insertProduct() /home/ubuntu/workspace/Lab20/create.php:56
+[23-Mar-2018 16:21:10 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Lab20/util.php:130
+[23-Mar-2018 19:23:07 UTC] PHP Warning:  require_once(util.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DHARMA/index.php on line 6
+[23-Mar-2018 19:23:07 UTC] PHP Stack trace:
+[23-Mar-2018 19:23:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/DHARMA/index.php:0
+[23-Mar-2018 19:23:07 UTC] PHP Fatal error:  require_once(): Failed opening required 'util.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DHARMA/index.php on line 6
+[23-Mar-2018 19:23:07 UTC] PHP Stack trace:
+[23-Mar-2018 19:23:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/DHARMA/index.php:0
+[23-Mar-2018 19:23:07 UTC] PHP Warning:  require_once(util.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DHARMA/index.php on line 6
+[23-Mar-2018 19:23:07 UTC] PHP Stack trace:
+[23-Mar-2018 19:23:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/DHARMA/index.php:0
+[23-Mar-2018 19:23:07 UTC] PHP Fatal error:  require_once(): Failed opening required 'util.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DHARMA/index.php on line 6
+[23-Mar-2018 19:23:07 UTC] PHP Stack trace:
+[23-Mar-2018 19:23:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/DHARMA/index.php:0
+[23-Mar-2018 19:24:04 UTC] PHP Warning:  require_once(util.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DHARMA/index.php on line 6
+[23-Mar-2018 19:24:04 UTC] PHP Stack trace:
+[23-Mar-2018 19:24:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/DHARMA/index.php:0
+[23-Mar-2018 19:24:04 UTC] PHP Fatal error:  require_once(): Failed opening required 'util.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DHARMA/index.php on line 6
+[23-Mar-2018 19:24:04 UTC] PHP Stack trace:
+[23-Mar-2018 19:24:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/DHARMA/index.php:0
+[23-Mar-2018 19:24:52 UTC] PHP Warning:  require_once(util.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DHARMA/index.php on line 6
+[23-Mar-2018 19:24:52 UTC] PHP Stack trace:
+[23-Mar-2018 19:24:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/DHARMA/index.php:0
+[23-Mar-2018 19:24:52 UTC] PHP Fatal error:  require_once(): Failed opening required 'util.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DHARMA/index.php on line 6
+[23-Mar-2018 19:24:52 UTC] PHP Stack trace:
+[23-Mar-2018 19:24:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/DHARMA/index.php:0
+[23-Mar-2018 19:25:26 UTC] PHP Warning:  require_once(util.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DHARMA/index.php on line 6
+[23-Mar-2018 19:25:26 UTC] PHP Stack trace:
+[23-Mar-2018 19:25:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/DHARMA/index.php:0
+[23-Mar-2018 19:25:26 UTC] PHP Fatal error:  require_once(): Failed opening required 'util.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DHARMA/index.php on line 6
+[23-Mar-2018 19:25:26 UTC] PHP Stack trace:
+[23-Mar-2018 19:25:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/DHARMA/index.php:0
+[23-Mar-2018 19:27:26 UTC] PHP Warning:  include(partials/_header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/DHARMA/index.php on line 4
+[23-Mar-2018 19:27:26 UTC] PHP Stack trace:
+[23-Mar-2018 19:27:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/DHARMA/index.php:0
+[23-Mar-2018 19:27:26 UTC] PHP Warning:  include(): Failed opening 'partials/_header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DHARMA/index.php on line 4
+[23-Mar-2018 19:27:26 UTC] PHP Stack trace:
+[23-Mar-2018 19:27:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/DHARMA/index.php:0
+[23-Mar-2018 19:27:26 UTC] PHP Warning:  include(partials/_despliega.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/DHARMA/index.php on line 6
+[23-Mar-2018 19:27:26 UTC] PHP Stack trace:
+[23-Mar-2018 19:27:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/DHARMA/index.php:0
+[23-Mar-2018 19:27:26 UTC] PHP Warning:  include(): Failed opening 'partials/_despliega.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DHARMA/index.php on line 6
+[23-Mar-2018 19:27:26 UTC] PHP Stack trace:
+[23-Mar-2018 19:27:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/DHARMA/index.php:0
+[23-Mar-2018 19:27:26 UTC] PHP Warning:  include(partials/_footer.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/DHARMA/index.php on line 8
+[23-Mar-2018 19:27:26 UTC] PHP Stack trace:
+[23-Mar-2018 19:27:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/DHARMA/index.php:0
+[23-Mar-2018 19:27:26 UTC] PHP Warning:  include(): Failed opening 'partials/_footer.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DHARMA/index.php on line 8
+[23-Mar-2018 19:27:26 UTC] PHP Stack trace:
+[23-Mar-2018 19:27:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/DHARMA/index.php:0
+[23-Mar-2018 19:40:06 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/DHARMA/page.php on line 10
+[23-Mar-2018 19:40:09 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/DHARMA/page.php on line 10
+[23-Mar-2018 19:40:12 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/DHARMA/page.php on line 10
+[23-Mar-2018 19:40:20 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/DHARMA/page.php on line 10
+[23-Mar-2018 19:40:46 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/DHARMA/page.php on line 10
+[23-Mar-2018 19:41:53 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/DHARMA/page.php on line 10
+[23-Mar-2018 19:42:51 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/DHARMA/page.php on line 10
+[23-Mar-2018 20:03:50 UTC] PHP Fatal error:  Call to undefined function insertaEntra() in /home/ubuntu/workspace/DHARMA/page.php on line 7
+[23-Mar-2018 20:03:50 UTC] PHP Stack trace:
+[23-Mar-2018 20:03:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/DHARMA/page.php:0
+[23-Mar-2018 20:04:07 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/DHARMA/util.php on line 130
+[23-Mar-2018 20:04:07 UTC] PHP Stack trace:
+[23-Mar-2018 20:04:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/DHARMA/page.php:0
+[23-Mar-2018 20:04:07 UTC] PHP   2. insertaEntra() /home/ubuntu/workspace/DHARMA/page.php:7
+[23-Mar-2018 20:04:07 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/DHARMA/util.php:130
+[23-Mar-2018 20:05:34 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/DHARMA/util.php on line 130
+[23-Mar-2018 20:05:34 UTC] PHP Stack trace:
+[23-Mar-2018 20:05:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/DHARMA/page.php:0
+[23-Mar-2018 20:05:34 UTC] PHP   2. insertaEntra() /home/ubuntu/workspace/DHARMA/page.php:7
+[23-Mar-2018 20:05:34 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/DHARMA/util.php:130
+[23-Mar-2018 20:05:37 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/DHARMA/util.php on line 130
+[23-Mar-2018 20:05:37 UTC] PHP Stack trace:
+[23-Mar-2018 20:05:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/DHARMA/page.php:0
+[23-Mar-2018 20:05:37 UTC] PHP   2. insertaEntra() /home/ubuntu/workspace/DHARMA/page.php:7
+[23-Mar-2018 20:05:37 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/DHARMA/util.php:130
+[23-Mar-2018 20:11:25 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/DHARMA/funciones.php on line 8
+[23-Mar-2018 20:11:25 UTC] PHP Stack trace:
+[23-Mar-2018 20:11:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/DHARMA/page.php:0
+[23-Mar-2018 20:11:25 UTC] PHP   2. imprimirTodo() /home/ubuntu/workspace/DHARMA/page.php:26
+[23-Mar-2018 20:11:25 UTC] PHP   3. getElements() /home/ubuntu/workspace/DHARMA/funciones.php:17
+[23-Mar-2018 20:13:26 UTC] PHP Fatal error:  Cannot redeclare getElements() (previously declared in /home/ubuntu/workspace/DHARMA/funciones.php:4) in /home/ubuntu/workspace/DHARMA/util.php on line 139
+[23-Mar-2018 20:13:26 UTC] PHP Stack trace:
+[23-Mar-2018 20:13:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/DHARMA/page.php:0
+[23-Mar-2018 20:13:26 UTC] PHP   2. require_once() /home/ubuntu/workspace/DHARMA/page.php:3
+[23-Mar-2018 20:14:29 UTC] PHP Fatal error:  Cannot redeclare getElements() (previously declared in /home/ubuntu/workspace/DHARMA/funciones.php:4) in /home/ubuntu/workspace/DHARMA/util.php on line 139
+[23-Mar-2018 20:14:29 UTC] PHP Stack trace:
+[23-Mar-2018 20:14:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/DHARMA/page.php:0
+[23-Mar-2018 20:14:29 UTC] PHP   2. require_once() /home/ubuntu/workspace/DHARMA/page.php:3
+[23-Mar-2018 20:14:38 UTC] PHP Fatal error:  Cannot redeclare getElements() (previously declared in /home/ubuntu/workspace/DHARMA/funciones.php:4) in /home/ubuntu/workspace/DHARMA/util.php on line 109
+[23-Mar-2018 20:14:38 UTC] PHP Stack trace:
+[23-Mar-2018 20:14:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/DHARMA/page.php:0
+[23-Mar-2018 20:14:38 UTC] PHP   2. require_once() /home/ubuntu/workspace/DHARMA/page.php:3
+[23-Mar-2018 20:14:54 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/DHARMA/funciones.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DHARMA/page.php on line 3
+[23-Mar-2018 20:14:54 UTC] PHP Stack trace:
+[23-Mar-2018 20:14:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/DHARMA/page.php:0
+[23-Mar-2018 20:14:54 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/DHARMA/funciones.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DHARMA/page.php on line 3
+[23-Mar-2018 20:14:54 UTC] PHP Stack trace:
+[23-Mar-2018 20:14:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/DHARMA/page.php:0
+[23-Mar-2018 20:15:26 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/DHARMA/util.php on line 113
+[23-Mar-2018 20:15:26 UTC] PHP Stack trace:
+[23-Mar-2018 20:15:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/DHARMA/page.php:0
+[23-Mar-2018 20:15:26 UTC] PHP   2. imprimirTodo() /home/ubuntu/workspace/DHARMA/page.php:26
+[23-Mar-2018 20:15:26 UTC] PHP   3. getElements() /home/ubuntu/workspace/DHARMA/util.php:122
+[23-Mar-2018 20:16:36 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/DHARMA/util.php on line 113
+[23-Mar-2018 20:16:36 UTC] PHP Stack trace:
+[23-Mar-2018 20:16:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/DHARMA/page.php:0
+[23-Mar-2018 20:16:36 UTC] PHP   2. imprimirTodo() /home/ubuntu/workspace/DHARMA/page.php:26
+[23-Mar-2018 20:16:36 UTC] PHP   3. getElements() /home/ubuntu/workspace/DHARMA/util.php:122
+[23-Mar-2018 20:16:38 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/DHARMA/util.php on line 113
+[23-Mar-2018 20:16:38 UTC] PHP Stack trace:
+[23-Mar-2018 20:16:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/DHARMA/page.php:0
+[23-Mar-2018 20:16:38 UTC] PHP   2. imprimirTodo() /home/ubuntu/workspace/DHARMA/page.php:26
+[23-Mar-2018 20:16:38 UTC] PHP   3. getElements() /home/ubuntu/workspace/DHARMA/util.php:122
+[23-Mar-2018 20:17:44 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/DHARMA/util.php on line 113
+[23-Mar-2018 20:17:44 UTC] PHP Stack trace:
+[23-Mar-2018 20:17:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/DHARMA/page.php:0
+[23-Mar-2018 20:17:44 UTC] PHP   2. imprimirTodo() /home/ubuntu/workspace/DHARMA/page.php:26
+[23-Mar-2018 20:17:44 UTC] PHP   3. getElement() /home/ubuntu/workspace/DHARMA/util.php:122
+[23-Mar-2018 20:18:15 UTC] PHP Fatal error:  Call to undefined function disconnectDb() in /home/ubuntu/workspace/DHARMA/util.php on line 115
+[23-Mar-2018 20:18:15 UTC] PHP Stack trace:
+[23-Mar-2018 20:18:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/DHARMA/page.php:0
+[23-Mar-2018 20:18:15 UTC] PHP   2. imprimirTodo() /home/ubuntu/workspace/DHARMA/page.php:26
+[23-Mar-2018 20:18:15 UTC] PHP   3. getElement() /home/ubuntu/workspace/DHARMA/util.php:122
+[23-Mar-2018 20:29:29 UTC] PHP Fatal error:  Call to undefined function getElemento() in /home/ubuntu/workspace/DHARMA/partials/_reporte.html on line 19
+[23-Mar-2018 20:29:29 UTC] PHP Stack trace:
+[23-Mar-2018 20:29:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/DHARMA/page.php:0
+[23-Mar-2018 20:29:29 UTC] PHP   2. include() /home/ubuntu/workspace/DHARMA/page.php:27
+[23-Mar-2018 20:29:44 UTC] PHP Fatal error:  Call to undefined function getElemento() in /home/ubuntu/workspace/DHARMA/partials/_reporte.html on line 19
+[23-Mar-2018 20:29:44 UTC] PHP Stack trace:
+[23-Mar-2018 20:29:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/DHARMA/page.php:0
+[23-Mar-2018 20:29:44 UTC] PHP   2. include() /home/ubuntu/workspace/DHARMA/page.php:27
+[23-Mar-2018 20:30:19 UTC] PHP Fatal error:  Call to undefined function getElemento() in /home/ubuntu/workspace/DHARMA/partials/_reporte.html on line 19
+[23-Mar-2018 20:30:19 UTC] PHP Stack trace:
+[23-Mar-2018 20:30:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/DHARMA/page.php:0
+[23-Mar-2018 20:30:19 UTC] PHP   2. include() /home/ubuntu/workspace/DHARMA/page.php:27
+[23-Mar-2018 20:31:06 UTC] PHP Fatal error:  Call to undefined function getElemento() in /home/ubuntu/workspace/DHARMA/partials/_reporte.html on line 19
+[23-Mar-2018 20:31:06 UTC] PHP Stack trace:
+[23-Mar-2018 20:31:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/DHARMA/page.php:0
+[23-Mar-2018 20:31:06 UTC] PHP   2. include() /home/ubuntu/workspace/DHARMA/page.php:27
